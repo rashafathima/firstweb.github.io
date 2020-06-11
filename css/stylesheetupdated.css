@@ -10,6 +10,9 @@ a {
     /* set the text color to red here */
     text-decoration: none; /* This means we do not want hyperlinks to be underlined */
   }
+@media only screen and(min-device-width :320px) and (max-device width :2000px) {
+    body{ width: 100%; }
+}
 
   body {
     background-color: beige;
