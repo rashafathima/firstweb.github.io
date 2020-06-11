@@ -1,0 +1,237 @@
+
+a {
+    color: blue;
+    /* set the text color to blue here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+  a:hover {
+    color: red;
+    /* set the text color to red here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+  body {
+    background-color: beige;
+    color: black;
+    font-family: monospace;
+    text-align: center;
+    image-orientation: center;
+    /* set the background color here */
+    /* set the text color to black here */
+    /* set the font here */
+    /* set the text alignment here */
+   }
+img{
+  float: left;
+}
+.imaage{
+  position: relative;
+}
+.teext{
+  position: absolute;
+  bottom: 50px;
+  right: 100px;
+  left: 100px;
+  top: 250px;
+}
+.login
+{
+
+  float: right;
+  left: 100px;
+  bottom: 200px;
+  right: 400px;
+}
+.login2{
+  float: right;
+  top: 200px;
+  bottom: 200px;
+  right: 400px;
+}
+.loginsec{
+position: relative;
+float: right;
+top: -93px;
+bottom: 300px;
+right: 110px;
+}
+.log2{
+  position: absolute;
+  top: 168px;
+bottom: 50px;
+right: 433px;
+}
+.txt{
+  position: absolute;
+  top: 55%;
+  bottom: 90%;
+  left: 32%;
+  float: right;
+  height: 35px;
+  width: 300px;
+  background-color: black;
+  border-radius: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+.txt2{
+  position: absolute;
+  top: 66%;
+  bottom: 70%;
+  left: 32%;
+  float: right;
+  height: 35px;
+  width: 300px;
+  background-color: black;
+  border-radius: 10px;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+.bo{
+  position: absolute;
+  top: 76%;
+  bottom: 92%;
+  left: 38%;
+  float: right;
+  height: 40px;
+  width: 200px;
+  background-color: black;
+  border-radius: 8px;
+  font-family: cursive;
+  font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+.loader1{
+  border: 16px solid #000000;
+  border-radius: 55%;
+  border-top: 16px solid #FFFFFF;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  animation-duration: 4s;
+  position: relative;
+  left: 45%;
+  top: 66%;
+  margin-top: 8rem;
+}
+@keyframes spin {
+0% {transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+
+}
+.loader2{
+  border: 16px solid #000000;
+  border-radius: 55%;
+  border-top: 16px solid #FFFFFF;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  animation-duration: 4s;
+  position: relative;
+  left: 45%;
+  top: 66%;
+  margin-top: 8rem;
+}
+@keyframes spin {
+0% {transform: rotate(0deg);}
+100%{transform: rotate(360deg);}
+
+}
+footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+    font-size: 45px;
+   }
+
+  h2 {
+    color: #075AAB;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    font-size: 35px;
+    /* set the text color of to #075AAB here */
+    /* set both the bottom margin and top margin to 2.5rem here */
+   }
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+    font-size: 60px;
+    color: #4F94CD;
+
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    font-size: 45px;
+    color: white;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+    font-size: 35px;
+    color: white;
+
+  }
+  h6{
+    margin-top: -5rem;
+    bottom: 100%;
+    font-size: 80px;
+    color: white;
+  }
+  p
+  {
+    font-size: 25px;
+  }
+.button{
+  position: absolute;
+  top: 65%;
+  bottom: 90%;
+  left: 25%;
+  float: right;
+  height: 70px;
+  width: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 23px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+.button1{
+  position: absolute;
+  top: 65%;
+  bottom: 90%;
+  left: 61%;
+  float: right;
+  height: 70px;
+  width: 115px;
+  background-color: black;
+  color: white;
+  border-radius: 23px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+  hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  /* this controls how the bullet points in the resume page looks */
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
